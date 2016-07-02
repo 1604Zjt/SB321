@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    for (int i=0; i<10000; i++) {
+        NSLog(@"i %d",i);
+    }
+    //SBSBSBSBSB
+    //傻逼傻逼
 }
 
 - (void)didReceiveMemoryWarning {
